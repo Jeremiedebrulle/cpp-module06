@@ -1,9 +1,9 @@
 CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 
-TARGET		= thosedamninterns
+TARGET		= scalar
 
-SRCS		=	main.cpp 
+SRCS		= main.cpp ScalarConverter.cpp
 
 OBJDIR		= obj
 OBJS		= $(SRCS:%.cpp=$(OBJDIR)/%.o)
